@@ -197,3 +197,18 @@ main p{
     font-weight: bold;
 }
 /* ai section end  */
+/* footer section done */
+footer{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
+    text-align: center;
+    background-color:#0D1B2A;
+    padding: 30px;
+}
+footer p {
+    color: whitesmoke;
+}
+.footer-right ul li a{
+    color: whitesmoke;
+}
