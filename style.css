@@ -13,8 +13,20 @@ color: white;
 cursor:pointer;
 }
 
+
+.outline-btn{
+    width: 110px;
+    padding: 7px;
+    border-radius: 10px;
+background-color:white;
+ border-color: white;
+color: #1D4ED8;
+cursor:pointer;
+}
+
+
 .container{
-    max-width: 1000px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -88,4 +100,68 @@ column-gap: 20px;
 }
 .speakers h4{
    color:#0D1B2A;
+}
+/* speakers section end */
+/* price section start */
+.price{
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+}
+.price-child-div{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap: 30px;
+
+}
+.price-child{
+    text-align: center;
+}
+.price-p-one{
+    margin: 30px 0;
+}
+.price .price-child-div ul{
+display: grid; 
+grid-template-columns: 1fr;
+list-style-type:disc;
+margin: 20px;
+font-size: x-small;
+
+}
+.price-child-div-two{
+
+    background-color:#0D1B2A ;
+    color: white;
+    border-color: #0D1B2A;
+    border-radius: 10px;
+    padding: 20px;
+}
+.price-btn{
+    width: 170px;
+}
+.price-child-div-one{
+background-color:wheat;
+color: #575757;
+border-radius:10px;
+padding: 20px;
+}
+
+
+.price-child-div-three{
+background-color:palegoldenrod;
+color: #575757;
+border-radius:10px;
+padding: 20px;
+}
+.pp{
+    color: #333333;
+}  
+.hh{
+    color:#0D1B2A ;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.ppp{
+    color: #333333;
+    font-size: xx-small;
 }
